@@ -1,0 +1,8 @@
+name = "IGtrading"
+uuid = "2aaa0809-dac2-456e-a86d-954d3d742f1a"
+authors = ["andy <andersgee@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
