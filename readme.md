@@ -15,7 +15,7 @@ julia> autoplace_order(sess, instruments[1], "BUY"); #places order at current pr
 julia> print_orders_and_positions(sess)
 positions[1]: BUY EUR/USD Mini (created: 2019/11/04 22:17) closing at current bid yields -0.6 pips
 
-positions = dl_positions(sess);
-close_position(sess, positions[1]);
-print_orders_and_positions(sess); #nothing
+julia> positions = dl_positions(sess);
+julia> close_position(sess, positions[1]);
+julia> print_orders_and_positions(sess); #nothing
 '''
