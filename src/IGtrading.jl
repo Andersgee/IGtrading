@@ -35,8 +35,7 @@ delete_order,
 close_position
 
 include("utils.jl")
-export print_orders,
-print_positions,
+export print_orders_and_positions,
 autoplace_order,
 dl_rate
 
